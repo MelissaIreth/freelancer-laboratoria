@@ -55,7 +55,11 @@ li a:hover, .dropdown:hover, .dropbtn:hover{
 	margin-bottom: 20px;
 	width: 90%;
 }
-
+/*
+.portfolio img:hover, .dropdown:hover, .dropbtn:hover{
+	color: rgba(92,94,144,0.85);
+}
+*/
 .about{
 	color: whitesmoke;
 	background-color: #18bc9c;
