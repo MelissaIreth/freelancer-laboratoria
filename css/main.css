@@ -2,28 +2,43 @@
  * Estilos de tu proyecto
  */
 
- nav{
+nav{
  	color: whitesmoke;
  	background-color: #2d3e50;
  	text-transform: uppercase;
+ 	display: flex;
+ 	position: fixed;
+ 	width: 100%;
+ 	padding: 20px;
+}
 
- }
+nav li{
+	display: inline-block;
+	list-style: none;
+	padding-left: 40px;
+	float: left;
+}
+
 nav p{
 	font-size: 2em;
 }
- nav a{
+nav a{
  	text-decoration: none;
  	color: whitesmoke;
- 	padding-top: 15px;
- 	padding-bottom: 15px;
- }
+ 	padding: 20px;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+	background-color: #18bd9b;
+	color: whitesmoke;
+}
 
 .start-b{
  	color: whitesmoke;
  	background-color: #18bd9b;
  	text-align: center;
  	padding: 100px;
- }
+}
 
 .portfolio{
 	color: #333333;
@@ -31,7 +46,7 @@ nav p{
 	padding: 80px;
 }
 
-h1{
+.t-uppc{
 	text-transform: uppercase;
 }
 
@@ -45,37 +60,59 @@ h1{
 	color: whitesmoke;
 	background-color: #18bc9c;
 	text-align: center;
-}
-
-.about-boo{
 	padding: 100px;
 }
 
-.about-boo p{
-
+.about-boo{
+	padding-bottom: 80px;
 }
 
-.about-boo a{
+.about-boo .texto{
+	float: left;
+	width: 500px;
+	margin: 30px 10px 30px 30px;
+}
+
+.about a{
 	color: whitesmoke
 	background-color: #18bc9c;
 	border: 2px solid whitesmoke;
-
+	cursor: pointer;
 }
 
 .contact{
 	text-align: center;
-}
-
-.contact-me{
-	padding: 100px;
+	padding: 109px;
 }
 
 .datos{
+	display: block;
+	padding: 30px;
 	text-align: center;
+}
+.datos ul li{
+	list-style: none;
+} 
+
+.datos input{
+	width: 90%;
+	height: 40px;
+	font-size: 15px;
+	padding: 10px
+	border: 0;
+	border-top: 1px solid #615f5f;
+}
+.datos .msg{
+	padding-bottom: 60px;
 }
 
 .datos button{
-
+	margin-top: 30px;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	background-color: #18bd9b;
+	color: whitesmoke;
 }
 
 .location-web-about{
@@ -84,13 +121,17 @@ h1{
 	padding-top: 50px;
 	text-align: center;
 }
-
+.bold{
+	font-size: 20px;
+	padding-bottom: 15px;
+}
 .location-web-about .col-4{
 	margin-bottom: 50px;
 }
 
 .location-web-about .fa{
-
+	padding: 10px;
+	color: whitesmoke;
 }
 
 .theme{

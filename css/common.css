@@ -45,3 +45,39 @@ hr{
 	max-width: 250px;
 	margin: 25px auto 30px;
 }*/
+
+#row-modal{
+	background-color: rgba(92,94,144,0.85);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#row-modal .body-modal{
+	width: 55%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px;
+}
+
+#row-modal .close{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	cursor: pointer;
+}
+
+#row-modal .close .fa{
+	width: 60px;
+	color: whitesmoke;
+	font-size: 3em;
+}
+
+.hide{
+	display: none;
+}
+.caja img{
+	cursor: pointer;
+}
