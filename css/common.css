@@ -7,7 +7,11 @@
 	font-family: 'Lato', sans-serif;
 }
 
- .container{
+.fa-star{
+	padding: 10px;
+}
+
+.container{
 	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
@@ -78,6 +82,20 @@ hr{
 .hide{
 	display: none;
 }
+
 .caja img{
 	cursor: pointer;
+}
+
+.error{
+	text-align: left;
+	font-size: 15px;
+	font-style: bolder;
+	color: #7e8a96;
+	padding: 10px;
+}
+
+#thanks{
+	font-size: 20px;
+	font-style: bolder;
 }

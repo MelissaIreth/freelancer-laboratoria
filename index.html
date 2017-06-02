@@ -14,9 +14,9 @@
 	<nav>
 		<p class="t-uppc">start bootstrap</p>
 			<ul class="t-uppc">
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#" id="scrollerP">Portfolio</a></li>
+				<li><a href="#" id="scrollerA">About</a></li>
+				<li><a href="#" id="scrollerC">Contact</a></li>
 			</ul>
 	</nav>
 	<header>
@@ -24,7 +24,7 @@
 			<img src="assets/images/profile.png">
 			<h1 class="t-uppc">start bootstrap</h1>
 			<i class="fa fa-star" aria-hidden="true"></i>
-			<p>web developers - Graphic artist - User experience designer</p>
+			<p>Web Developers - Graphic Artist - User Experience Designer</p>
 		</div>
 	</header>
 	<section class="portfolio">
@@ -73,24 +73,29 @@
 			<i class="fa fa-star" aria-hidden="true"></i>
 			<div class="datos">
 				<ul>
-					<li><input type="text" name="name" placeholder="Name "></li>
-					<li><input type="text" name="email" placeholder="Email Address"></li>
-					<li><input type="text" name="phone" placeholder="Phone Number "></li>
-					<li><input type="text" class="msg" name="msg" placeholder="Message "></li>
+					<li><input type="text" name="name" id="name" placeholder="Name "></li>
+					<div id="error-name" class="error"></div>
+					<li><input type="text" name="email" id="mail" placeholder="Email Address"></li>
+					<div id="error-mail" class="error"></div>
+					<li><input type="text" name="phone" id="phone" placeholder="Phone Number "></li>
+					<div id="error-phone" class="error"></div>
+					<li><input type="text" class="msg" id="msg" name="msg" placeholder="Message "></li>
+					<div id="error-msg" class="error"></div>
+					<div id="thanks"></div>
 				</ul>
-				<button>Send</button>
+				<button id="send">Send</button>
 			</div>
 	</section>
 	<section class="location-web-about">
 		<div class="container">
 			<div class="row">
 				<div class="col-4">
-					<p class="t-uppc bold">location</p>
+					<h3 class="t-uppc bold">location</h3>
 					<p>3481 Melrose Place</p>
 					<p>Beverly Hills, CA 90210</p>
 				</div>
 				<div class="col-4">
-					<p class="t-uppc bold">around the web</p>
+					<h3 class="t-uppc bold">around the web</h3>
 					<a href="https://www.facebook.com/startbootstrap/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 					<a href="https://plus.google.com/+Startbootstrap"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 					<a href="https://twitter.com/sbootstrap"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -98,7 +103,7 @@
 					<a href="https://dribbble.com/tags/bootstrap"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
 				</div>
 				<div class="col-4">
-					<p class="t-uppc bold">about freelancer</p>
+					<h3 class="t-uppc bold">about freelancer</h3>
 					<p>Freelance is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/" class="theme">Start Bootstrap.</a></p>
 				</div>	
 			</div>
